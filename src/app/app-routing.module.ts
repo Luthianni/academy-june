@@ -1,3 +1,4 @@
+import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CardComponent } from './components/card/card.component';
@@ -13,6 +14,9 @@ const routes: Routes = [
   },
   {
     path: 'perfil', component: PerfilComponent
+  },
+  {
+    path:"home", component: HomeComponent
   },
   {
     path: '**',
